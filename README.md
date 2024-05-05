@@ -15,6 +15,14 @@ Bu sınıf, motor pin bilgilerini saklar ve her bir motor için kalibrasyon nokt
 ## Kurulum
 Projeyi yerel bir ortama klonlayın ve gerekli bağımlılıkları yükleyin.
 
+
+https://github.com/ibrahimTlmcu/RoboDog-Byte/assets/94108626/c2f13c07-0834-4f1c-bef6-d7cbad1dcf16
+
+
+
+https://github.com/ibrahimTlmcu/RoboDog-Byte/assets/94108626/7f078bbf-c35a-4928-9961-0b57fc96cb2f
+
+
 ```bash
 git clone https://github.com/kullanici_adi/RoboDog-Byte.git
 cd RoboDog-Byte
