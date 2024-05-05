@@ -7,10 +7,23 @@ RoboDog-Byte, bir robot köpek prototipi için geliştirilmiş bir kod ve donan�
 ### `motor_set` Sınıfı
 Bu sınıf, motor pin bilgilerini saklar ve her bir motor için kalibrasyon noktalarını yönetir.
 
-**Dinamik():** 6 eksenli gyro-ivme sensöründen verileri alır ve robotun eğim değişimlerinde dengesini sağlayarak gövdesini düz tutmasını sağlar.
-**swrite():** Motorlardan alınan PWM sinyallerini işler. Açı verilerini PWM sinyallerine dönüştürerek daha okunaklı bir kod yazılmasını sağlar.
-**pos_cal():** Robotun tüm bacaklarını kalibrasyon için sıfır konumlarına getirir.
-**kinematik():** Her bacağın gideceği konumu koordinat olarak alır. Gitmesi gereken konum için Femur, Tibia ve Coxa açılarını hesaplar. Ayak uçlarını istenilen konuma açı verisi alınmadan kendisi hesaplayarak götürür.
+## Fonksiyonlar
+
+### Dinamik()
+6 eksenli gyro-ivme sensöründen verileri alır ve robotun eğim değişimlerinde dengesini sağlayarak gövdesini düz tutmasını sağlar.
+
+### swrite()
+Motorlardan alınan PWM sinyallerini işler. Açı verilerini PWM sinyallerine dönüştürerek daha okunaklı bir kod yazılmasını sağlar.
+
+### pos_cal()
+Robotun tüm bacaklarını kalibrasyon için sıfır konumlarına getirir.
+
+### kinematik()
+Her bacağın gideceği konumu koordinat olarak alır. Gitmesi gereken konum için Femur, Tibia ve Coxa açılarını hesaplar. Ayak uçlarını istenilen konuma açı verisi alınmadan kendisi hesaplayarak götürür.
+
+## Kurulum
+Projeyi yerel bir ortama klonlayın ve gerekli bağımlılıkları yükleyin.
+
 
 
 
